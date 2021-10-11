@@ -1,0 +1,31 @@
+{
+  "name": "smartedu-project",
+  "version": "1.0.0",
+  "description": "Smart Edu Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmreSamurlu/SmartEdu-Project.git"
+  },
+  "keywords": [
+    "node",
+    "edu",
+    "project"
+  ],
+  "author": "Emre Samurlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmreSamurlu/SmartEdu-Project/issues"
+  },
+  "homepage": "https://github.com/EmreSamurlu/SmartEdu-Project#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
