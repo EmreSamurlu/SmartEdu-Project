@@ -1,9 +1,10 @@
 <%- include('./partials/_header'); %>
   <%- include('./partials/_navigation'); %>
-
+  <% if(user) {%>
 	<div class="all-title-box">
 		<div class="container text-center">
-			<h1>Course Single<span class="m_1">Lorem Ipsum dolroin gravida nibh vel velit.</span></h1>
+			<h1><%= user.name %></h1>
+      <span style="color: #fff; font-size: 1.2em"><%= user.email %></span>
 		</div>
 	</div>
 
@@ -97,5 +98,5 @@
 			</div><!-- end row -->
 		</div><!-- end container -->
 	</div><!-- end section -->
-
+<% } %>
   <%- include('./partials/_footer'); %>
